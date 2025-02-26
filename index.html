@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Restaurante Italiano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700$display=swap"
+        rell="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Restaurante <span class="verde">Hue</span><span>ju</span><span class="rojo">tla</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#">Inicio</a>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Chef</a>
+                    <a href="#">Contacto</a>                
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Bienvenido!</h2>
+                    <a href="#" class="btn bordes">nuestro menu</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="bg_video.mp4">
+                </video>
+            </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienvenido a</p>
+            <h1>Restaurante Huejutla</h1>
+            <p>Somos un restaurante de comida de la region 100% local, creado con el amor y dedicación de nuestros
+                clientes.</p>
+            <a href="#" class="btn btn-rojo">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="imagenes/nosotros1.webp" alt="mujer comiendo pizza">
+            </div>
+            <div class="imagenes2">
+                <img data-src="imagenes/nosotros2.webp" alt="mujeres comiendo pizza">
+                <img data-src="imagenes/nosotros3.webp" alt="plato con pasta">
+        </div>   
+    </div>
+
+    <section class="menu contenedor">
+        <h2>Platillos populares</h2>
+        <div class="botones-platillos">
+            <buton class="todos">Todos</buton>
+            <buton class="ensalada">Ensalada</buton>
+            <buton class="pasta">Pasta</buton>
+            <buton class="pizza">Pizza</buton>
+            <buton class="postres">Postres</buton>
+        </div>
+        <div class="platillos">
+            <div class="platillo">
+                <img data-src="imagenes/ensalada.webp" alt="ensalada">
+            </div>    
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
