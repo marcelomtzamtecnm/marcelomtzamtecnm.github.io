@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700$display=swap"
         rell="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="restauranteitaliano/normalize.css">
+    <link rel="stylesheet" href="restauranteitaliano/estilo.css">
 </head>
 
 <body>
@@ -23,11 +23,15 @@
                     <h2>Restaurante <span class="verde">Hue</span><span>ju</span><span class="rojo">tla</span></h2>
                 </div>
                 <nav class="navegacion ocultar">
-                    <a href="#">Inicio</a>
-                    <a href="#">Sobre Nosotros</a>
-                    <a href="#">Menu</a>
-                    <a href="#">Chef</a>
-                    <a href="#">Contacto</a>                
+                    <a href="calcula/calculadora.html">calculadora</a>
+                    <a href="agencia_autos/frmformulario.html">agencia autos</a>
+                    <a href="login/mma.html">login</a>
+                    <a href="materiatecnm/materias.html">materias</a>
+                    <a href="practica3/formulario.html">formulario</a>
+                    <a href="practica4/marcelom.html">acceso</a>
+                    <a href="responsiveEj5/responsive.html">responsiva</a>
+                    <a href="RESPOSIVA/responsive.html">responsiva2</a>
+                    <a href="tarea/maquetacion.html">maquetacion</a>
                 </nav>
                 <div class="hamburguesa">
                     <span></span><span></span><span></span>
@@ -39,9 +43,10 @@
                 <div class="texto-encabezado">
                     <h2>Bienvenido!</h2>
                     <a href="#" class="btn bordes">nuestro menu</a>
+                    
                 </div>
                 <video autoplay loop muted>
-                    <source src="bg_video.mp4">
+                    <source src="restauranteitaliano/bg_video.mp4">
                 </video>
             </div>
     </header>
@@ -56,31 +61,137 @@
         </div>
         <div class="imagenes-nosotros">
             <div class="imagen1">
-                <img data-src="imagenes/nosotros1.webp" alt="mujer comiendo pizza">
+                <img data-src="restauranteitaliano/imagenes/nosotros1.webp" alt="mujer comiendo pizza">
             </div>
             <div class="imagenes2">
-                <img data-src="imagenes/nosotros2.webp" alt="mujeres comiendo pizza">
-                <img data-src="imagenes/nosotros3.webp" alt="plato con pasta">
+                <img data-src="restauranteitaliano/imagenes/nosotros2.webp" alt="mujeres comiendo pizza">
+                <img data-src="restauranteitaliano/imagenes/nosotros3.webp" alt="plato con pasta">
+            </div>
         </div>   
     </div>
 
     <section class="menu contenedor">
-        <h2>Platillos populares</h2>
+        <h2 class="texto-platillos">Platillos populares</h2>
         <div class="botones-platillos">
-            <buton class="todos">Todos</buton>
-            <buton class="ensalada">Ensalada</buton>
-            <buton class="pasta">Pasta</buton>
-            <buton class="pizza">Pizza</buton>
-            <buton class="postres">Postres</buton>
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensalada btn btn-verde">Ensalada</button>
+            <button class="pasta btn btn-verde">Pasta</button>
+            <button class="pizza btn btn-verde">Pizza</button>
+            <button class="postres btn btn-verde">Postres</button>
         </div>
         <div class="platillos">
-            <div class="platillo">
-                <img data-src="imagenes/ensalada.webp" alt="ensalada">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="restauranteitaliano/imagenes/ensalada.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
             </div>    
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="restauranteitaliano/imagenes/ensalada2.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="restauranteitaliano/imagenes/ensalada2.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="restauranteitaliano/imagenes/pasta1.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="restauranteitaliano/imagenes/pasta2.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="restauranteitaliano/imagenes/pasta2.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="restauranteitaliano/imagenes/pizza1.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="restauranteitaliano/imagenes/pizza2.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="restauranteitaliano/imagenes/pizza2.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="restauranteitaliano/imagenes/postres1.webp" alt="postre">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="restauranteitaliano/imagenes/postres2.webp" alt="postre">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="restauranteitaliano/imagenes/postres2.webp" alt="postre">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.00</p>
+                    <button>comprar</button>
+                </div>
+            </div>
         </div>
     </section>
 
-    <script src="app.js"></script>
+    <script src="restauranteitaliano/app.js"></script>
 
 </body>
 

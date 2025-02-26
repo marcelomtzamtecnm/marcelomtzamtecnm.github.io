@@ -1,0 +1,62 @@
+#registrouser{
+background: transparent url(../imagenes/R.jpeg)px no-repeat scroll left bottom;
+border: medium none;
+color: #333333;
+height: 665px;
+padding: 0 0 0 50;
+width: 515px;
+}
+#registrouser legend{
+background: transparent url(../imagenes/9b3Pr6.jpg) no-repeat scroll left top;
+color: #333333;
+font-family: arial;
+font-size: 21px;
+letter-spacing: -1px;
+padding-bottom: 20px;
+padding-top: 8px;
+text-transform: capitalize;
+}
+
+#registrouser input.texto{
+background: #ffffff url(../imagenes/OIP.jpeg) no-repeat scroll left top;
+border: medium none !important;
+color: #666666;
+font-size: 12px;
+height: 24px;
+padding-bottom: 0;
+padding-left: 5px;
+padding-top: 5px;
+width: 454px;
+font-family: arial, sans-serif;
+}
+#registrouser textarea.areadetexto{
+background: #ffffff url(../imagenes/OIP.jpeg) no-repeat scroll top left;
+width: 454px;
+height: 212px;
+border: none !important;
+padding-bottom: 0;
+padding-left: 5px;
+padding-top: 5px;
+color: #666666;
+font-size: 12px;
+font-family: arial, sans-serif;
+}
+#registrouser label{
+display: block;
+font-family: arial, sans-serif;
+font-size: 14px;
+padding: 10px 0 3px;
+}
+#registrouser input.botonenviar{
+background: transparent url(../imagenes/boton-enviar.png) no-repeat scroll left top;
+border: medium none !important;
+color: #ffffff;
+display: block;
+float: left;
+font-family: arial,sans-serif;
+height: 30px;
+margin-left: 360px;
+margin-top: 20px;
+text-align: center;
+width: 99px;
+}

@@ -1,0 +1,26 @@
+body{
+
+    color: #000000;
+}
+
+a, a:link, a:visited, a:active, a:hove{
+    color:#81c0c5;
+}
+
+header{
+    background-color: #ff9900;
+}
+
+nav{
+    background-color: #9aafce;
+}
+
+section{
+    background-color: #19e823;
+}
+
+footer{
+    background-color: #cccc00;
+    text-align: center;
+
+}
