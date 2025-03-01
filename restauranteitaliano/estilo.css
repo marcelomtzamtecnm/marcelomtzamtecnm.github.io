@@ -120,6 +120,9 @@ img{
     margin-bottom: 2rem;
     font-family: var(--parrafos);
 }
+.btn-verde:hover{
+    background-color: var(--rojo);
+}
 /*encabezado*/
 .contenedor-navegacion{
     background-color: var(--oscuro);
@@ -171,7 +174,7 @@ img{
     bottom: 0;
     height: 125vh;
     width: 40rem;
-    padding: 4rem 4rem;
+    padding: 3rem 4rem;
     background-color: var(--oscuro);
     animation: desplazamiento .5s ease-in-out;
 }
@@ -308,6 +311,14 @@ video{
         flex: unset;
     }
 }
+@media(min-width:768px){
+    .platillos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+}
 .platillos{
     display: flex;
     justify-content: space-between;
@@ -325,6 +336,9 @@ video{
     border: 1px solid #e1e1e1;
     padding: 2rem;
     border-radius: 5px;
+}
+.platillo h2{
+    text-align: center;
 }
 .platillos p{
     font-size: 1.8rem;
